@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "title": "Android OS SDK",
+    "crates": [
+      "uniffi"
+    ],
+    "language": "jvm",
+    "integration": "completed",
+    "developmentkit": [
+      "app"
+    ],
+    "opensources": [
+      {
+        "name": "Android (Real Device)",
+        "link": "https://github.com/aiamitsuri/interoperability-sdk-android",
+        "tags": [
+          "android"
+        ]
+      },
+      {
+        "name": "Android AAOS (Emulator)",
+        "link": "https://github.com/aiamitsuri/interoperability-sdk-android-automotive",
+        "tags": [
+          "android",
+          "automotive"
+        ]
+      }
+    ],
+    "media": [
+      "url/pic1.jpg",
+      "url/vid1.mp4"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Apple OS SDK",
+    "crates": [
+      "uniffi"
+    ],
+    "language": "swift",
+    "integration": "pending",
+    "developmentkit": null,
+    "opensources": null,
+    "media": null
+  },
+  {
+    "id": 3,
+    "title": "JS Ecosystem SDK",
+    "crates": [
+      "wasm",
+      "neon"
+    ],
+    "language": "node",
+    "integration": "completed",
+    "developmentkit": [
+      "app",
+      "cli"
+    ],
+    "opensources": [
+      {
+        "name": "Tauri (Next)",
+        "link": "https://github.com/aiamitsuri/interoperability-sdk-tauri",
+        "tags": [
+          "nextjs",		  	  
+          "typescript",
+		  "tauri"
+        ]
+      },
+	  {
+        "name": "React (Next)",
+        "link": "https://github.com/aiamitsuri/interoperability-sdk-react",
+        "tags": [
+          "nextjs",		  	  
+          "typescript",
+		  "react"
+        ]
+      },
+      {
+        "name": "Node (CLI)",
+        "link": "https://github.com/aiamitsuri/interoperability-sdk-node",
+        "tags": [
+          "nodejs",
+          "typescript"
+        ]
+      }
+    ],
+    "media": [
+      "url/pic1.jpg",
+      "url/vid1.mp4"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Beam Ecosystem SDK",
+    "crates": [
+      "rustler"
+    ],
+    "language": "beam",
+    "integration": "pending",
+    "developmentkit": null,
+    "opensources": null,
+    "media": null
+  },
+  {
+    "id": 5,
+    "title": "JVM Ecosystem SDK",
+    "crates": [
+      "robusta",
+	  "uniffi"
+    ],
+    "language": "jvm",
+    "integration": "completed",
+    "developmentkit": [
+      "cli"
+    ],
+    "opensources": [
+      {
+        "name": "Scala (CLI)",
+        "link": "https://github.com/aiamitsuri/interoperability-sdk-scala",
+        "tags": [
+          "scala"
+        ]
+      },
+      {
+        "name": "Groovy (CLI)",
+        "link": "https://github.com/aiamitsuri/interoperability-sdk-groovy",
+        "tags": [
+          "groovy",
+          "java"
+        ]
+      },
+      {
+        "name": "Kotlin (CLI)",
+        "link": "https://github.com/aiamitsuri/interoperability-sdk-kotlin",
+        "tags": [
+          "kotlin"
+        ]
+      },
+      {
+        "name": "Java (CLI)",
+        "link": "https://github.com/aiamitsuri/interoperability-sdk-java",
+        "tags": [
+          "java"
+        ]
+      }
+    ],
+    "media": [
+      "url/pic1.jpg",
+      "url/vid1.mp4"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Flutter SDK",
+    "crates": [
+      "frb"
+    ],
+    "language": "dart",
+    "integration": "pending",
+    "developmentkit": null,
+    "opensources": null,
+    "media": null
+  },
+  {
+    "id": 7,
+    "title": "Golang SDK",
+    "crates": [
+      "uniffi"
+    ],
+    "language": "golang",
+    "integration": "completed",
+    "developmentkit": [
+      "cli"
+    ],
+    "opensources": [
+      {
+        "name": "Golang (CLI)",
+        "link": "https://github.com/aiamitsuri/interoperability-sdk-golang",
+        "tags": [
+          "golang"
+        ]
+      }
+    ],
+    "media": [
+      "url/pic1.jpg",
+      "url/vid1.mp4"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Ruby SDK",
+    "crates": [
+      "magnus"
+    ],
+    "language": "ruby",
+    "integration": "pending",
+    "developmentkit": null,
+    "opensources": null,
+    "media": null
+  },
+  {
+    "id": 9,
+    "title": "Python SDK",
+    "crates": [
+      "pyo3",
+	  "uniffi"
+    ],
+    "language": "python",
+    "integration": "completed",
+    "developmentkit": [
+      "cli"
+    ],
+    "opensources": [
+      {
+        "name": "Python (CLI)",
+        "link": "https://github.com/aiamitsuri/interoperability-sdk-python",
+        "tags": [
+          "python"
+        ]
+      }
+    ],
+    "media": [
+      "url/pic1.jpg",
+      "url/vid1.mp4"
+    ]
+  },
+  {
+    "id": 10,
+    "title": ".Net Ecosystem SDK",
+    "crates": [
+      "rnet"
+    ],
+    "language": "net",
+    "integration": "completed",
+    "developmentkit": [
+      "cli"
+    ],
+    "opensources": [
+      {
+        "name": "C# (CLI)",
+        "link": "https://github.com/aiamitsuri/interoperability-sdk-csharp",
+        "tags": [
+          "csharp",
+		  "dotnet"
+        ]
+      },
+      {
+        "name": "F# (CLI)",
+        "link": null,
+        "tags": [
+          "fsharp",
+		  "dotnet"
+        ]
+      }
+    ],
+    "media": [
+      "url/pic1.jpg",
+      "url/vid1.mp4"
+    ]
+  }
+]
